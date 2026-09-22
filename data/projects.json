@@ -1,0 +1,9 @@
+{
+  "projects":[
+    {"id":"eng","title":"ENG","category":"Vibe Coding","description":"GitHub에 연결된 개인 프로젝트입니다.","github":"https://github.com/raon-1/eng"},
+    {"id":"trans","title":"TRANS","category":"Vibe Coding","description":"GitHub에 연결된 번역 관련 프로젝트입니다.","github":"https://github.com/raon-1/trans"},
+    {"id":"jusik","title":"JUSIK","category":"Vibe Coding","description":"GitHub에 연결된 개인 프로젝트입니다.","github":"https://github.com/raon-1/jusik"}
+  ],
+  "entryProjects":[],
+  "vibeProjects":[]
+}
