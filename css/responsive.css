@@ -1,0 +1,11 @@
+@media(max-width:900px){
+  nav{display:none;position:absolute;top:72px;left:0;right:0;padding:18px 6%;background:var(--surface);border-bottom:1px solid var(--line);flex-direction:column;gap:15px}
+  nav.open{display:flex}.menu-btn{display:block}.hero{grid-template-columns:1fr;min-height:auto;padding-top:80px}.hero-card{height:300px}.stats{grid-template-columns:repeat(2,1fr)}
+  .project-grid{grid-template-columns:repeat(2,1fr)}.split-section,.github-section{grid-template-columns:1fr;gap:40px}.github-section{padding-left:6%;padding-right:6%}
+}
+@media(max-width:620px){
+  .site-header{padding:17px 5%}.hero,.section{padding-left:5%;padding-right:5%}.hero h1{font-size:3.1rem}.hero-card{height:260px}.hero-card-inner strong{font-size:3rem}
+  .stats{padding:0 5%;grid-template-columns:1fr 1fr;margin-bottom:40px}.stat{padding:18px}.stat strong{font-size:1.5rem}
+  .about-grid,.project-grid,.credentials{grid-template-columns:1fr}.section-heading.row{display:block}.filters{margin-top:20px}
+  footer{padding:30px 5%;flex-direction:column}.repo-card{grid-template-columns:1fr}.repo-card .text-link{margin-top:15px}
+}
